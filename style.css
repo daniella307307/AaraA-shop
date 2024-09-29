@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+.container{
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2em;
+    align-items: center;
+}
+.navbar h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5em;
+}
+.navbar ul{
+    width: 25%;
+    list-style: none;
+    display: flex;
+}
+.navbar ul li{
+    margin-right: 2em;
+}
+.menu{
+    margin-left: 20vw;
+}
+.promotions{
+    align-items: center;
+}
+
+#smaller{
+    background-color: rgb(243, 194, 202);
+     width: 25em;
+     height: 20em;
+     border-radius: 50%;
+     text-align: center;
+}
+.smaller-even{
+    border:2px solid rgb(243, 194, 202);
+    width: 22em;
+    height: 20em;
+    margin: 4em;
+    border-radius: 50%;
+
+}
+#smaller h1{
+    font-size: 8.5em;
+    margin-top: 0.6em;
+}
+#shop a{
+    color: rgb(54, 54, 54); 
+}
+#shop-back{
+    width: 2em;
+    height: 2em;
+    background: gray;
+    color: black;
+    display: inline;
+}
+#smaller h2{
+    font-size: 3em;
+    font-weight: 400;
+}
+#smaller h4{
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-top: 1em;
+}
+#smaller p{
+    color: gray;
+    line-height: 1.2em;
+    margin-top: 1em;
+}
+#smaller-right{
+    width: 15em;
+    height: 65vh;
+    background: rgb(243, 194, 202);
+    border-bottom-left-radius: 100%;
+   
+}
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5em;
+    padding: 3em;
+
+}
+.features h1{
+    font-size: 1em;
+}
+
+.color{
+    background: rgb(75, 224, 224);
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    margin-right: 1em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+.color-1{
+    background:rgb(243, 194, 202);
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    align-items: center;
+    margin-right: 1em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+.color-1 i{
+    font-size: 2em;
+    margin-top: 0.2em;
+    color: rgb(29, 28, 28);
+}
+.color i{
+    font-size: 2em;
+    margin-top: 0.15em;
+    color: rgb(29, 28, 28);
+}
+.products{
+   text-align: center;
+   line-height: 2.4em;
+}
+.products-caret{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 0.5em;
+}
+.card img{
+    width: 16em;
+}
+.card{
+    text-align: center;
+    margin-left: 3em;
+    margin-top: 5em;
+}
+.footer{
+    background: rgb(243, 194, 202);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4em;
+    margin-top: 5em ;
+}
+
+.name h1{
+   font-size: 4em; 
+
+}
+.name span{
+    color: rgb(109, 109, 109);
+}
+.quickLinks ul{
+ list-style: none;
+}
+.quickLinks ul li{
+    margin: 1em 0em;
+    color: rgb(77, 77, 77);
+}
+.socio p{
+    margin: 1em 0em;
+    color: rgb(77, 77, 77);
+}
+.socio i{
+    margin-right: 1em;
+    font-size: 1em;
+}
+.socio span{
+    color: rgb(77, 77, 77);
+}
+
+.email input{
+    background: transparent;
+    border: 2px solid rgb(206, 67, 90);
+    width: 80%;
+    height: 4em;
+    margin-top: 1.5em;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    margin-right: 0.2em;
+}
+.email button{
+    width: 5.5em;
+    height: 4em;
+    border: none;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    color: rgb(206, 67, 90);
+}
